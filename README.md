@@ -90,7 +90,7 @@ b. You can also find the usage of individual components (tool library, cognitive
 
 a. If you want to evaluate the planning performance on nuScenes validation set, you can first collect the motion planning results by running
 ```
-sh scripts/run_finetune.sh
+sh scripts/run_inference.sh
 ```
 You will get a `pred_trajs_dict.pkl` in the `experiments` folder. 
 
